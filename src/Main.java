@@ -1,8 +1,10 @@
 
 public class Main
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
-		System.out.printf("%d", 32);
+		BaseConverter b = new BaseConverter();
+		System.out.println(b.convertBinary(1010101));
+		System.out.println(b.convertHexadecimal("1010101"));
 	}
 }
