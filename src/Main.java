@@ -3,8 +3,9 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		BaseConverter b = new BaseConverter();
-		System.out.println(b.convertBinary(1010101));
-		System.out.println(b.convertHexadecimal("1010101"));
+		//String result = BaseConverter.convertDecimal(6847343, "Binary");
+		//System.out.println(result);
+		//System.out.println(BaseConverter.convertBinary(Long.parseLong(result), "Decimal"));
+		System.out.println(BaseConverter.convertHexadecimal("1AF29FA23B", "Decimal"));
 	}
 }
